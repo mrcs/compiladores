@@ -356,7 +356,7 @@ int main(int argc, char **argv){
 			}
 			case 2:{
 			//	PAUSE;
-				int* classificacoes = simulacao(100000); // simulando 100000 vezes
+				int* classificacoes = simulacao(1000000); // simulando 100000 vezes
 				imprimirSimulacao(classificacoes);
 			//	CLEAR;
 				free(classificacoes);
