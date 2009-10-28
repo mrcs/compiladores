@@ -1,5 +1,5 @@
 #!/bin/bash
 lex brasileiro.l
 yacc -d brasileiro.y 
-gcc lex.yy.c y.tab.c -o brasileiro.exe
+gcc lex.yy.c y.tab.c -o brasileiro
 
