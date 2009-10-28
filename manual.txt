@@ -1,0 +1,22 @@
+####################
+PROJETO COMPILADORES
+####################
+
+Passo para compilar:
+$ ./compila
+
+Para executar o programa, digite:
+$ ./brasileiro <nomedoarquivodatabela>
+Para sair do programa, digite qualquer tecla que 
+nao corresponda a uma opcao do menu.
+
+O arquivo da tabela pode ser criado utilizando o 'gedit' 
+ou outro editor. Mas deve utilizar a codificacao 
+ISO-8859 (ou similar).
+
+GRUPO:
+Bruno Carlos
+Carlos Eduardo
+Francisco Marinho
+Marcos Antonio
+

@@ -7,7 +7,6 @@
 	#define MAXCLUBE 20
 	#define COLTABELAO 9
 	#define random() xor128()
-	
 	#ifdef WIN32 
 	#define CLEAR system("cls")
 	#else
@@ -203,7 +202,6 @@ void geraMelhorPlacar(int time) {
 			else if (tabelao[i][6] == time)	
 				setPlacar(i,0,2);
 			else {
-				
 				int anfitriao = compareMelhorCaso(tabela,tabelao[i][5],time);	// 1: anfitriao > time, 0: anfitriao < time, c.c: -1
 				int visitante = compareMelhorCaso(tabela,tabelao[i][6],time);	// 1: visitante > time, 0: visitante < time, c.c: -1
 
@@ -349,23 +347,17 @@ int main(int argc, char **argv){
 		CLEAR;
 		switch(opcao){
 			case 1:{
-			//	CLEAR;
 				classificacaoAtual(rodadaAtual,"");
-			//	PAUSE;
 				break;
 			}
 			case 2:{
-			//	PAUSE;
 				int* classificacoes = simulacao(1000000); // simulando 100000 vezes
 				imprimirSimulacao(classificacoes);
-			//	CLEAR;
 				free(classificacoes);
 				break;
 			}
 			case 3:{
-			//	CLEAR;
 				melhorCaso();
-			//	PAUSE;
 				break;
 			}
 			default:{

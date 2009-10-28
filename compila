@@ -1,10 +1,5 @@
 #!/bin/bash
-yacc -d calc.y 
-#calc.y:12.15: warning: stray `,' treated as white space
-#calc.y:12.20: warning: stray `,' treated as white space
-#marcos@slack:~/downloaded/graduacao/COMPILADORES$ gcc lex.yy.c y.tab.c -o calc.exe
-#(reverse-i-search)`lex ': lex calc.l
-#(reverse-i-search)`le': gcc lex.yy.c y.tab.c -o calc.exe
-lex calc.l
-gcc -Wall lex.yy.c y.tab.c -o calc.exe
+lex brasileiro.l
+yacc -d brasileiro.y 
+gcc lex.yy.c y.tab.c -o brasileiro.exe
 
