@@ -1,12 +1,24 @@
-TESTE DO GIT
+Compiladores 1o projeto
 
-O git vai ser utilizado para manter o track do 
-projeto de compiladores.
+####################
+PROJETO COMPILADORES
+####################
 
-O github é free. 
+Passo para compilar:
+$ ./compila
 
-A idéia é colocar um servidor git rodando
-no dsc.upe.br ou algo que o valha!
+Para executar o programa, digite:
+$ ./brasileiro <nomedoarquivodatabela>
+Para sair do programa, digite qualquer tecla que 
+nao corresponda a uma opcao do menu.
 
+O arquivo da tabela pode ser criado utilizando o 'gedit' 
+ou outro editor. Mas deve utilizar a codificacao 
+ISO-8859 (ou similar).
 
+GRUPO:
+Bruno Carlos
+Carlos Eduardo
+Francisco Marinho
+Marcos Antonio
 
